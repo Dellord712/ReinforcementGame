@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Obj">
+      <UniqueIdentifier>{0e86ff08-f597-4585-8628-b6aaefd359be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Background">
+      <UniqueIdentifier>{a7428d42-c2dc-4325-92e3-89b08619529e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BitMap">
+      <UniqueIdentifier>{397c7c5b-7487-4a36-885a-60ef0a5cd4c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Player">
+      <UniqueIdentifier>{b390a633-690a-4940-8d5f-dd5f3fd3f953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Bolck">
+      <UniqueIdentifier>{c2116167-8d96-4522-a3b9-a9fe7268abca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CollisionMgr">
+      <UniqueIdentifier>{a376f0d4-1351-418e-a7ec-6c2b23afee58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Line">
+      <UniqueIdentifier>{db379541-01fa-4268-9161-d91cf2e7075a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Shop">
+      <UniqueIdentifier>{b81b0a6a-b830-4493-b90f-3d56efd2a3e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Monster">
+      <UniqueIdentifier>{089dd4db-8c37-4dbd-bebb-2fc080500c4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\State">
+      <UniqueIdentifier>{4b4856c6-3617-4e79-a937-828ebbde5a7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\MagicOrder">
+      <UniqueIdentifier>{ed8ed128-5d19-4206-8807-1132ded470b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Weapon">
+      <UniqueIdentifier>{2b24c1db-0362-4449-9493-2d1c7fb8c092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\EnhancedMotion">
+      <UniqueIdentifier>{7f36d01d-0f52-4cbf-9ef6-ba3e4df7d111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Meso">
+      <UniqueIdentifier>{9b8b609c-746d-4e81-9bd3-6e10ba705682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Menu">
+      <UniqueIdentifier>{8a5c8001-d387-47ca-b926-ffaa6d770ab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Clock">
+      <UniqueIdentifier>{b68516ad-d5a3-42aa-915c-a12e9f93cfa6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>소스 파일\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>소스 파일\Obj\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="BitMapManager.cpp">
+      <Filter>소스 파일\BitMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Blocks.cpp">
+      <Filter>소스 파일\Obj\Bolck</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Obj\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>소스 파일\CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>소스 파일\Obj\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>소스 파일\Obj\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일\Obj\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopState.cpp">
+      <Filter>소스 파일\Obj\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemInventory.cpp">
+      <Filter>소스 파일\Obj\State</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicOrder.cpp">
+      <Filter>소스 파일\Obj\MagicOrder</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicOrderState.cpp">
+      <Filter>소스 파일\Obj\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>소스 파일\Obj\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="EnhancedMotion.cpp">
+      <Filter>소스 파일\EnhancedMotion</Filter>
+    </ClCompile>
+    <ClCompile Include="Meso.cpp">
+      <Filter>소스 파일\Obj\Meso</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon2.cpp">
+      <Filter>소스 파일\Obj\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponState.cpp">
+      <Filter>소스 파일\Obj\State</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicOrder2.cpp">
+      <Filter>소스 파일\Obj\MagicOrder</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>소스 파일\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Clock.cpp">
+      <Filter>소스 파일\Obj\Clock</Filter>
+    </ClCompile>
+    <ClCompile Include="Number.cpp">
+      <Filter>소스 파일\Obj\Clock</Filter>
+    </ClCompile>
+    <ClCompile Include="Menuboard.cpp">
+      <Filter>소스 파일\Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>소스 파일\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>소스 파일\Obj\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="BitMapManager.h">
+      <Filter>소스 파일\BitMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Blocks.h">
+      <Filter>소스 파일\Obj\Bolck</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\Obj\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="resource4.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>소스 파일\CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>소스 파일\Obj\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>소스 파일\Obj\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>소스 파일\Obj\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemInventory.h">
+      <Filter>소스 파일\Obj\State</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicOrder.h">
+      <Filter>소스 파일\Obj\MagicOrder</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopState.h">
+      <Filter>소스 파일\Obj\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicOrderState.h">
+      <Filter>소스 파일\Obj\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>소스 파일\Obj\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="EnhancedMotion.h">
+      <Filter>소스 파일\EnhancedMotion</Filter>
+    </ClInclude>
+    <ClInclude Include="Meso.h">
+      <Filter>소스 파일\Obj\Meso</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponState.h">
+      <Filter>소스 파일\Obj\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon2.h">
+      <Filter>소스 파일\Obj\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicOrder2.h">
+      <Filter>소스 파일\Obj\MagicOrder</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>소스 파일\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
+      <Filter>소스 파일\Obj\Clock</Filter>
+    </ClInclude>
+    <ClInclude Include="Number.h">
+      <Filter>소스 파일\Obj\Clock</Filter>
+    </ClInclude>
+    <ClInclude Include="Menuboard.h">
+      <Filter>소스 파일\Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Maple4.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\BMP\Background.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\BMP\block1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\BMP\block2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\BMP\block3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\BMP\block4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\BMP\block5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\BMP\Boss1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\BMP\Clock.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\BMP\EnhancedMotion.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\BMP\ItemInventory.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\BMP\MagicOrderState.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\BMP\MaginOrder.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\BMP\Menu.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\BMP\Meso.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\BMP\Monster.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\BMP\Number.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\BMP\Player.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\BMP\Shop.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\BMP\ShopState.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\BMP\Weapon.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\BMP\WeaponState.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\BGM\maple-bgm1.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
